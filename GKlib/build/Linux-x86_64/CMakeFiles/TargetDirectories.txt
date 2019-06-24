@@ -1,0 +1,9 @@
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/GKlib.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/csrcnv.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/fis.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/gkgraph.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/gksort.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/grKx.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/m2mnbrs.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/rw.dir
+/scratch/glu19b/code/GKlib2/build/Linux-x86_64/test/CMakeFiles/strings.dir

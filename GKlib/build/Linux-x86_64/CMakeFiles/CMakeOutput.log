@@ -1,0 +1,343 @@
+The system is: Linux - 3.19.0-66-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /soft/gcc-4.5.2/ubuntuamd1/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /soft/gcc-4.5.2/ubuntuamd1/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /soft/cmake/2.8.4/lucid64/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Reading specs from /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/specs
+COLLECT_GCC=/soft/gcc-4.5.2/ubuntuamd1/bin/gcc
+COLLECT_LTO_WRAPPER=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.5.2/configure --prefix=/soft/gcc-4.5.2 --exec-prefix=/soft/gcc-4.5.2/ubuntuamd1 --with-gmp-include=/soft/gcc-4.5.2/ubuntuamd1/include --with-gmp-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-mpfr-include=/soft/gcc-4.5.2/include --with-mpfr-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-ppl-include=/soft/gcc-4.5.2/include --with-ppl-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-boot-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --with-stage1-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --disable-multilib
+Thread model: posix
+gcc version 4.5.2 (GCC) 
+COMPILER_PATH=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib64 -R/soft/gcc-4.5.2/ubuntuamd1/lib64 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/soft/gcc-4.5.2/ubuntuamd1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /soft/cmake/2.8.4/lucid64/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/soft/gcc-4.5.2/ubuntuamd1/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Reading specs from /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/specs]
+  ignore line: [COLLECT_GCC=/soft/gcc-4.5.2/ubuntuamd1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.5.2/configure --prefix=/soft/gcc-4.5.2 --exec-prefix=/soft/gcc-4.5.2/ubuntuamd1 --with-gmp-include=/soft/gcc-4.5.2/ubuntuamd1/include --with-gmp-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-mpfr-include=/soft/gcc-4.5.2/include --with-mpfr-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-ppl-include=/soft/gcc-4.5.2/include --with-ppl-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-boot-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --with-stage1-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.5.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib64 -R/soft/gcc-4.5.2/ubuntuamd1/lib64 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+    arg [-R/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o] ==> ignore
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2]
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib]
+  implicit libs: [c]
+  implicit dirs: [/soft/gcc-4.5.2/ubuntuamd1/lib64;/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2;/lib64;/usr/lib/x86_64-linux-gnu;/soft/gcc-4.5.2/ubuntuamd1/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /soft/cmake/2.8.4/lucid64/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Reading specs from /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/specs
+COLLECT_GCC=/soft/gcc-4.5.2/ubuntuamd1/bin/c++
+COLLECT_LTO_WRAPPER=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.5.2/configure --prefix=/soft/gcc-4.5.2 --exec-prefix=/soft/gcc-4.5.2/ubuntuamd1 --with-gmp-include=/soft/gcc-4.5.2/ubuntuamd1/include --with-gmp-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-mpfr-include=/soft/gcc-4.5.2/include --with-mpfr-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-ppl-include=/soft/gcc-4.5.2/include --with-ppl-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-boot-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --with-stage1-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --disable-multilib
+Thread model: posix
+gcc version 4.5.2 (GCC) 
+COMPILER_PATH=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib64 -R/soft/gcc-4.5.2/ubuntuamd1/lib64 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/soft/gcc-4.5.2/ubuntuamd1/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /soft/cmake/2.8.4/lucid64/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/soft/gcc-4.5.2/ubuntuamd1/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Reading specs from /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/specs]
+  ignore line: [COLLECT_GCC=/soft/gcc-4.5.2/ubuntuamd1/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.5.2/configure --prefix=/soft/gcc-4.5.2 --exec-prefix=/soft/gcc-4.5.2/ubuntuamd1 --with-gmp-include=/soft/gcc-4.5.2/ubuntuamd1/include --with-gmp-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-mpfr-include=/soft/gcc-4.5.2/include --with-mpfr-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-ppl-include=/soft/gcc-4.5.2/include --with-ppl-lib=/soft/gcc-4.5.2/ubuntuamd1/lib --with-boot-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --with-stage1-ldflags='-L/soft/gcc-4.5.2/ubuntuamd1/lib -Wl,-rpath -Wl,/soft/gcc-4.5.2/ubuntuamd1/lib' --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.5.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib64 -R/soft/gcc-4.5.2/ubuntuamd1/lib64 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2 -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/soft/gcc-4.5.2/ubuntuamd1/libexec/gcc/x86_64-unknown-linux-gnu/4.5.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+    arg [-R/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtbegin.o] ==> ignore
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2]
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..] ==> dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib64] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../../../lib64] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2/../../..] ==> [/soft/gcc-4.5.2/ubuntuamd1/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/soft/gcc-4.5.2/ubuntuamd1/lib64;/soft/gcc-4.5.2/ubuntuamd1/lib/gcc/x86_64-unknown-linux-gnu/4.5.2;/lib64;/usr/lib/x86_64-linux-gnu;/soft/gcc-4.5.2/ubuntuamd1/lib]
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc     -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() { 
+#ifdef _OPENMP
+  return 0; 
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/c++      -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() { 
+#ifdef _OPENMP
+  return 0; 
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_progress_report /scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /soft/cmake/2.8.4/lucid64/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/soft/cmake/2.8.4/lucid64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/soft/gcc-4.5.2/ubuntuamd1/bin/gcc     -DCHECK_FUNCTION_EXISTS=getline   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[2]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/scratch/glu19b/code/GKlib2/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
