@@ -223,6 +223,7 @@ License
 -------
 Please look at the file LICENSE.
 
+The SVDLIB and GKLIB are under their own licenses.
 Citation
 ---------
 If you use our code in your research, please cite us:
