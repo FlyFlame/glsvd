@@ -228,6 +228,7 @@ Citation
 ---------
 If you use our code in your research, please cite us:
 
+```
 @inproceedings{christakopoulou2018local,
   title={Local latent space models for top-n recommendation},
   author={Christakopoulou, Evangelia and Karypis, George},
@@ -236,6 +237,7 @@ If you use our code in your research, please cite us:
   year={2018},
   organization={ACM}
 }
+```
 
 Contact Information
 -------------------
